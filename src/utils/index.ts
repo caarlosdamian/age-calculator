@@ -1,16 +1,16 @@
 export const inputData = [
   {
-    id: 'day',
+    id: 'days',
     length: 2,
     placeholder: 'DD',
   },
   {
-    id: 'month',
+    id: 'months',
     length: 2,
     placeholder: 'MM',
   },
   {
-    id: 'year',
+    id: 'years',
     length: 4,
     placeholder: 'YYYY',
   },
