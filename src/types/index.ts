@@ -4,7 +4,12 @@ export interface RootObject {
   years: Days;
 }
 
+
+export interface Error {
+  message: string;
+  error: boolean;
+}
 interface Days {
   value: string;
-  isError: boolean;
+  isError: Error;
 }
